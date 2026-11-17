@@ -1,0 +1,8 @@
+# Generated log files
+logs/*.log
+
+# Generated archive files
+archive/*.tar.gz
+
+# Temporary files
+*.tmp
