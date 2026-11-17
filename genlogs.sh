@@ -1,0 +1,11 @@
+#!/bin/bash
+lv="$HOME/project/log-archive-tool/logs"
+echo "$(date) - Application started successfully" >> "$lv/application.log"
+echo "$(date) - User logged in" >> "$lv/application.log"
+echo "$(date) - Application processing request" >> "$lv/application.log"
+echo "$(date) - ERROR: Database connection failed" >> "$lv/error.log"
+echo "$(date) - WARNING: High memory usage detected" >> "$lv/error.log"
+echo "$(date) - GET /index.html - 200 OK" >> "$lv/access.log"
+echo "$(date) - POST /login - 200 OK" >> "$lv/access.log"
+echo "$(date) - GET / deshboard - 404 NOT FOUND" >> "$lv/access.log"
+echo "Sample log entries generated!"
