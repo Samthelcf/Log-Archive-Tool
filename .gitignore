@@ -1,11 +1,8 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Generated log files
+logs/*.log
+
+# Generated archive files
+archive/*.tar.gz
+
+# Temporary files
+*.tmp
